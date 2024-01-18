@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [source code]([https://your-solution-url.com](https://github.com/kushyzee/interactive-rating-component-main))
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live preview](https://kushyzee.github.io/interactive-rating-component-main/)
 
 ## My process
 
