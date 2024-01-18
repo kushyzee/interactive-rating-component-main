@@ -22,6 +22,7 @@ body {
   font-size: 1.5rem;
   background-color: var(--vdark-blue);
   color: white;
+  min-width: 300px;
 }
 
 .wrapper {
@@ -119,7 +120,7 @@ li button:active {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 3px dotted white;
   border-top-color: transparent;
   margin-left: .8rem;
   animation: spin 1s linear infinite;
@@ -127,10 +128,13 @@ li button:active {
 
 @keyframes spin {
   0% { 
-    transform: rotate(0deg); 
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.3);
   }
   100% { 
-    transform: rotate(360deg); 
+    transform: rotate(360deg) scale(1);
   }
 }
 
@@ -152,8 +156,7 @@ li button:active {
   display: inline-block;
   margin-block: 2rem 1rem;
   padding: .7rem 1.5rem .4rem;
-  border-radius: 20px;
-  
+  border-radius: 20px;  
 }
 
 .hidden {

@@ -10,8 +10,13 @@ let ratingNum = "";
 
 // FUNCTIONS
 const ratings = (e) => {
+	Array.from(ratingBtns).forEach(list => {
+		list.firstChild.style = "";
+	});
+
   ratingNum = e.target.innerText;
   e.target.style.backgroundColor = '#fb7413';
+  e.target.style.color = '#ffffff';
 };
 
 const submitRating = () => {
@@ -22,7 +27,8 @@ const submitRating = () => {
 
   ratingResult.innerText = ratingNum;
   spinner.classList.toggle("v-hidden");
-  thankYouCard.style.display = "initial";
+	thankYouCard.style.display = "initial";
+	
 	setTimeout(() => {
     mainCard.classList.toggle("hidden2");
 		
