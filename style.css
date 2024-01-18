@@ -90,6 +90,10 @@ li button:hover {
   transform: scale(1.08);
 }
 
+li button:focus {
+  background-color: var(--orange);
+}
+
 .submit-btn {
   position: relative;
   display: block;
