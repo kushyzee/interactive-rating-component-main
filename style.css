@@ -90,7 +90,7 @@ li button:hover {
   transform: scale(1.08);
 }
 
-li button:focus {
+li button:active {
   background-color: var(--orange);
 }
 
