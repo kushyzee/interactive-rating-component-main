@@ -11,6 +11,7 @@ let ratingNum = "";
 // FUNCTIONS
 const ratings = (e) => {
   ratingNum = e.target.innerText;
+  e.target.style.backgroundColor = '#fb7413';
 };
 
 const submitRating = () => {
