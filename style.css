@@ -142,7 +142,7 @@ li button:hover {
   position: absolute;
   text-align: center;
   display: none;
-  transition: transform 3s ease-in, opacity .2s ease-in;
+  transition: transform .3s ease-in, opacity .2s ease-in;
 }
 
 .thank-you img {
